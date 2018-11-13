@@ -1,0 +1,401 @@
+.section.hero#about{
+  max-height:200px;
+
+}
+
+.projectTitle#about{
+  position:relative;
+  top:70px;
+}
+
+h2.homeIntro{
+text-align:center;
+font-family:roboto slab, georgia, serif;
+font-size:50px;
+ width:90%;
+  margin:0 auto 20px;
+}
+
+h3.homeIntroDescription{
+  text-align:center;
+  font-family: roboto, arial, sans-serif;
+  font-weight:300;
+  font-size:32px;
+  line-height:1.25em;
+  width:90%;
+  max-width:650px;
+  margin:0 auto;
+}
+
+
+.homeCTA{
+  text-align: center;
+  margin-top:50px;
+}
+
+@media only screen and (max-width:700px)
+{
+  h2.homeIntro{
+    font-size:40px;
+  }
+
+    h3.homeIntroDescription{
+  font-size:24px;
+
+}
+}
+
+@media only screen and (max-width:500px)
+{
+  h2.homeIntro{
+    font-size:30px;
+  }
+
+    h3.homeIntroDescription{
+  font-size:22px;
+
+}
+}
+
+@media only screen and (max-width:550px)
+{
+
+.nextLine, .designation{
+ display:block;
+ margin:5px 0 15px;
+}
+}
+
+@media only screen and (max-height:600px)
+{
+  #heroContain{
+    top:12%;
+  }
+}
+
+/* ====== SPCIALIZATIONS ROW ====== */
+
+
+
+.specialize{
+    padding:30px;
+    text-align: left;
+    margin:0 auto;
+    max-width:1200px;
+  /* background: linear-gradient(180deg,
+       rgba(200, 200, 200, .2) 0%,
+       rgba(255, 255, 255, 1) 25%,
+       rgba(255, 255, 255, 1) 75%,
+        rgba(200, 200, 200, .2) 100%);
+        */
+
+}
+
+.specialty{
+  text-align:center;
+}
+
+.specialize h2, .principles h2, .bottomCTA h2{
+    font-family:roboto slab, georgia, serif;
+    font-weight: 400;
+    font-size:36px;
+    padding: 20px;
+    text-align:center;
+
+}
+
+.specialize h2{
+  width:330px;
+  font-weight:300;
+  margin:-50px auto 0px;
+font-size:30px;
+
+}
+
+
+.specialize h3, .principles h3, .bottomCTA h3{
+    font-family:roboto slab, georgia, serif;
+    font-weight: 300;
+    padding: 0px;
+    margin:30px 0;
+
+}
+
+.specialize h3{
+  font-size:24px;
+}
+
+
+
+#aboutHero{
+/*background-image: url("../images/family.jpg");*/
+background-size:cover;
+background-blend-mode: normal;
+background-attachment: fixed;
+background-position: center;
+height:97%;
+}
+
+
+
+.heroScrollDown{
+  height:250px;
+  position:absolute;
+  bottom:0;
+  width:100%
+
+ }
+
+ .heroScrollDown i.fas{
+  display:block;
+  width:100%;
+  text-align:center;
+  font-size:150px;
+  color:white;
+  opacity:.3;
+  animation:arrowHover 2s infinite;
+  transition:.3s;
+  }
+
+.aboutCTA ul{padding:0; margin-top:50px;}
+.aboutCTA ul li{display:inline; margin-right:5%; font-size:24px; font-weight: 100; font-family:roboto, arial, sans-serif;}
+.aboutCTA a:hover{transition:.3s; text-decoration:none; color:#ef6c00;}
+
+.aboutCTA.mobile{display:none;}
+
+@media only screen and (max-width:600px){
+
+#aboutHero{
+background-image: url("../images/me.jpg");
+background-size:cover;
+background-blend-mode: normal;
+background-attachment: fixed;
+background-position: center;
+height:100%;
+}
+
+.heroScrollDown i.fas{
+  display:block;
+  width:100%;
+  text-align:center;
+  font-size:90px;
+  color:white;
+  opacity:.3;
+  animation:arrowHover 2s infinite;
+  transition:.3s;
+  }
+
+}
+
+
+
+ @keyframes arrowHover{
+  0%{margin-top:0px;}
+  50%{margin-top:15px;}
+  100%{margin-top:0px;}
+
+}
+
+ /* .heroScrollDown i.fas:hover{
+    cursor: pointer;
+  } */
+
+#specialtiesContain {
+  margin:0 auto;
+    max-width:700px;
+
+}
+
+#specialtiesContain div.specialty{
+    float:left;
+    padding:30px 60px 30px;
+    height:300px;
+    width:25%;
+
+}
+
+.skills{
+    width:27%;
+    height:100%;
+    float:right;
+    padding:0px 0px 25px 0px;
+    border-bottom: 1px solid black;
+}
+
+.skills:last-child{
+    border-bottom: none;
+}
+
+.skills ul{margin-top:-30px;}
+.skills li{ font-size:18px; font-family:roboto, arial, sans-serif; font-weight:300;}
+.skills h3{margin-bottom:45px;}
+.skillsWrap{
+  padding:0px;
+}
+
+.skills h3{
+  padding-left:17px;
+}
+
+ .skills ul{
+  padding-left:34px;
+
+}
+
+/* SPECIALIZAITONS ICONS */
+
+.fas, .far {font-size:36px;margin-bottom:10px; margin:0 auto;}
+
+#headshot{
+  clear:both;
+  margin: 50px 0;
+  margin: 0 auto;
+  border-radius: 50%;
+  width:150px;
+  height:150px;
+  background-image: url('../images/me.jpg');
+  background-size: contain;
+  }
+
+.bio{
+    width:69%;
+    height:100%;
+    float:left;
+    padding:20px 50px 20px 0px;
+
+}
+
+.bio p.intro{font-size:26px; line-height:1.65em;  font-weight:300; font-family:roboto slab, georgia, serif;}
+.bio p{font-size:20px; line-height:1.65em; font-weight:300; font-family:roboto, arial, sans-serif;}
+
+p.emphasis{font-weight: 600; margin-top:50px; text-transform: uppercase;}
+
+.bio h3{font-size:24px; font-weight:600; font-family:roboto slab, georgia, serif; padding:0;}
+
+#skillsHead{display:block; text-align:center; font-weight:600;}
+
+
+
+@media only screen and (max-width:900px){
+
+#specialtiesContain div.specialty{
+    width:50%;
+
+}
+
+}
+
+@media only screen and (max-width:901px)
+{
+    #specialtiesContain div.specialty{
+    padding:30px 20px 30px;
+    }
+    .bio{width:100%; padding:0px;}
+    .bio p.intro{font-size:22px;}
+    .bio p{font-size:18px;}
+    .skills{width:50%; float:left; border-bottom:none; padding:0px 20px 25px 20px;}
+    .skills ul{margin-top:-30px;}
+
+    .skills li{ font-size:20px; font-family:roboto, arial, sans-serif; font-weight:300;}
+    .aboutCTA.mobile{display:block;  text-align:center; font-size:24px; margin:0 auto 40px;}
+    .aboutCTA.mobile ul{outline: 0px solid; margin:0 auto 0;}
+    .aboutCTA.mobile ul li{display:inline; margin:0 5%;}
+    .aboutCTA{display:none;}
+}
+
+
+
+@media only screen and (max-width:692px)
+{
+    #specialtiesContain div.specialty{
+    padding:30px 30px 30px;
+    }
+}
+
+@media only screen and (max-width:610px)
+{
+    .bio p.intro{font-size:20px;}
+    .bio p{font-size:16px;}
+    .skills{width:100%;  padding:0px 0px 25px 0px;}
+    .skills ul, .skills h3{width:230px; margin:20px auto; }
+    .specialize{padding:30px;}
+
+}
+
+@media only screen and (max-width:560px){
+.aboutCTA.mobile ul{margin:0px; padding:0; }
+
+.aboutCTA.mobile ul li{display:block; margin:15px auto; width:100%;}
+
+#specialtiesContain div.specialty{
+    width:100%;
+
+}
+
+/* Makes that underline under each discipine */
+#specialtiesContain div.specialty:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-top: 50px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.specialty:last-child{
+   border-bottom: 0px solid black;
+
+}
+
+}
+
+section.homeCTA{
+
+  clear:both;
+
+}
+
+.homeIntroDescription span{
+  color:#0085b7;
+}
+
+#viewWork{text-align:center;}
+
+#viewWork a{
+  color:#ef6c00;
+  font-size:20px;
+  font-family:roboto slab, georgia, serif;
+  text-transform:uppercase;
+  transition:.5s;
+}
+
+#viewWork a:hover{
+  color:#bd5602;
+
+  text-decoration:none;
+}
+
+i#viewWorkArrow{
+ color:#ef6c00;
+}
+
+#viewWork a:hover i.fas{
+  color:#bd5602;
+}
+
+
+
+i#viewWorkArrow.fas
+{
+  animation:viewWorkArrowDown 2s;
+animation-iteration-count:infinite;
+  position:relative;
+  transition:.5s;
+}
+
+
+@keyframes viewWorkArrowDown{
+  0% {top:0; opacity:0;}
+  50% {opacity:1; }
+  100%{top:15px;opacity:0;}
+}

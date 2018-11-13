@@ -1,0 +1,36 @@
+section.contact{
+  height:100%;
+  width:80%;
+  max-width:900px;
+  min-height: 700px;
+  margin:80px auto 25px;
+
+}
+
+section.contact h2{
+  font-family:roboto slab, georgia, serif;
+  font-weight:100;
+  font-size:60px;
+  margin-bottom:20px;
+
+}
+
+section.contact p{
+  font-family:roboto, arial, sans-serif;
+  font-weight:100;
+  font-size:24px;
+}
+
+section.contact button{
+  font-family:roboto, arial, sans-serif;
+  font-weight:100;
+  font-size:18px;
+  background-color:#057dff;
+  outline:0px;
+  border:0px;
+}
+
+section.contact form{
+  margin:50px 0;
+  font-family:roboto, arial, sans-serif;
+}

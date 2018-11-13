@@ -1,0 +1,28 @@
+/* .principles{
+    background-color:lightgreen;
+    text-align: center;
+    padding:25px 0;
+    overflow: auto;
+}
+
+.principle{
+    padding:25px 0;
+    float:left;
+    width: 33%;
+    min-height:200px;
+} */
+
+
+
+
+.reachOut{
+   width:76%;
+   height:100px;
+   margin:0 auto;
+
+}
+
+.reachOut ul li{
+display: inline;
+
+}

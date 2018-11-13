@@ -1,0 +1,543 @@
+body, html{
+  height:100%;
+}
+
+a{transition: .3s;}
+
+/* ====== TOP NAV ======== */
+
+.topNav{
+  background-color: white;
+  width:100%;
+  min-height: 100px;
+  padding:20px;
+
+}
+
+.navWrap{
+  width:100%;
+  height:50px;
+  margin:0 auto;
+  max-width:1300px;
+  position:relative;
+}
+
+@media only screen and (max-width:600px){
+.topNav{
+  transition:.3s;
+  min-height: 75px;
+  padding:5px;
+
+}
+}
+
+.logo{
+  width:65px;
+  height:65px;
+  float: left;
+  color:white;
+  transition:.3s;
+  border:7px solid orange;
+  border-radius:50%;
+  text-align:center;
+  position:relative;
+  top:-5px;
+  }
+
+.logo:hover{cursor:pointer;}
+
+.logo h4{
+  font-family:roboto slab,arial, sans serif;
+  font-weight:600;
+  margin:7% 5%;
+  font-size:23px;
+  letter-spacing:1px;
+  transition:.3s;
+  color:gray;
+}
+
+.logo h4 a{
+
+  transition:.3s;
+  color:gray;
+  position:absolute;
+  top:22%;
+  left:20%
+}
+
+.logo:hover h4 a{
+  text-decoration:none;
+  color:black;
+}
+
+@media only screen and (max-width: 475px){
+ .logo{
+   margin:7px;
+   width:55px;
+   height:55px;
+}
+
+.logo h4 a{
+  font-family:roboto slab,arial, sans serif;
+  margin:5% 3%;
+  font-size:17px;
+}
+}
+
+
+#menuRight{
+  float: right;
+  display: block;
+  height:65px;
+  width:80%;
+}
+
+#menuRight ul{
+  height:65px;
+  position:absolute;
+  right:0px;
+
+}
+#menuRight ul li{
+  display: inline;
+  padding: 20px 5px;
+  position:relative;
+  top:18px;
+  height:65px;
+  margin:10px 15px 10px 15px;
+
+}
+
+#menuRight ul li.icon{
+  margin:10px 4px 10px 4px;
+
+}
+
+.fa.fa-linkedin{margin-left:10px;}
+
+@media only screen and (max-width:850px){
+  #menuRight ul li{
+  margin:10px 10px 10px 10px;
+
+}
+ #menuRight ul{
+
+
+  padding:0;
+
+
+}
+
+}
+
+
+#menuRight ul li a{
+  color: gray;
+  height:65px;
+  font-size:20px;
+  text-decoration: none;
+  }
+
+#menuRight ul li a.notIcon{
+font-family:roboto, arial, sans-serif;
+  font-weight:300;
+  }
+
+#menuRight ul li a:hover{
+  color: black;
+
+}
+#menuRight ul li a:active{
+  color: darkorange;
+  border-bottom:1px solid white;
+}
+
+
+  /* ====== SECTIONS ======== */
+
+  #contentContain{
+    height:100%;
+  }
+
+.principles{
+  background-color:lightyellow;
+}
+
+div.principle{
+  padding: 20px;
+}
+
+.section.hero{
+/* background-color:gray; */
+
+  height: 70%;
+  min-height: 550px;
+}
+
+.section{
+ overflow:auto;
+}
+
+
+.section.hero{
+ position:relative;
+}
+
+
+/* ====== HERO ======== */
+
+#heroContain{
+  width:100%;
+  margin:0 auto;
+  position:relative;
+  top:32%;
+}
+
+.heroLogo{
+  width:100%;
+  height:auto;
+  text-align:center;
+}
+
+.heroLogo h2{
+  font-family:roboto slab,arial, sans serif;
+  font-weight:600;
+  color:white;
+  font-size:60px;
+  margin-top:15%;
+  transition:.3s;
+}
+
+@media only screen and (max-width: 450px){
+ .heroLogo h2{font-size:50px;}
+}
+
+@media only screen and (max-width: 390px){
+ .heroLogo h2{font-size:40px;}
+}
+
+ ul.heroSpecialties{
+   margin:0 auto;
+   outline: 1px solid red;
+  width:242px;
+  padding:0;
+  margin:15px auto 50px;;
+}
+
+ .heroSpecialties li{
+   display:inline;
+   padding:25px;
+font-size:24px;
+width:70px;
+font-family:roboto,arial,sans-serif;
+font-weight:300;
+color:white;
+      outline: 1px solid red;
+
+
+}
+
+#heroCTA a, #resumeCTA a{
+display:block;
+  background-color: orange;
+  color:black;
+  margin:0 auto;
+  padding:10px 25px;
+ width:150px;
+ font-size:20px;
+ text-align:center;
+ border-radius:5px;
+ font-family:roboto, arial, sans-serif;
+ font-weight:400;
+ t
+}
+
+#heroCTA a:hover, #resumeCTA a:hover{
+  background-color: yellow;
+  text-decoration: none;
+
+}
+
+.triangleBottom{
+  width:0;
+  height:0;
+  border-left:2600px solid white;
+  border-top:200px solid transparent;
+  position:absolute;
+  bottom:0;
+}
+
+.triangleTop{
+  width:0;
+  height:0;
+  border-right:2600px solid white;
+  border-bottom:200px solid transparent;
+  position:absolute;
+  top:0;
+}
+
+/* LETS WORK TOGETHER CTA */
+
+
+.botCTAcont{
+    /* outline:1px solid red; */
+    height:60px;
+    width:50%;
+    margin:10px 0;
+    float:left;
+position:relative;
+}
+
+.bottomCTA
+{
+    padding:20px;
+    text-align:center;
+    clear:both;
+    background-color:black;
+}
+
+.bottomCTA h2
+{
+    font-size:50px;
+    color:lightgray;
+    font-weight:300;
+
+}
+
+.bottomCTA h3{
+    margin:40px;
+    text-transform: uppercase;
+   }
+.bottomCTA a{
+    padding:10px;
+    border: 1px solid orange;
+    color:white;
+    width:200px;
+    border-radius: 5px;
+    display:block;
+    float:left;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-family:roboto, arial, sans-serif;
+        font-weight:400;
+    /* transition: .3s; */
+   }
+
+@media only screen and (min-width:700px)
+{
+    .bottomCTA a{width:300px; font-size:20px;}
+}
+
+
+   .bottomCTA a:hover{
+     color:black;
+       background-color: orange;
+       text-decoration: none;
+      }
+
+@media only screen and (max-width:550px){
+
+.botCTAcont{width:100%;}
+
+}
+
+
+/* OVERRIDES FOR #resumeCTA over #homeCTA */
+
+#resumeCTA{}
+
+#resumeCTA a{width:200px; padding:5px 20px;}
+
+#resumeCTA a i.fas {font-size:24px; margin-left: 10px;}
+
+  /* ====== FOOTER ======== */
+
+footer{
+  text-align:center;
+  width: 100%;
+  background-color: black;
+  padding: 15px;
+  color:white;
+  font-family:roboto, arial, sans-serif;
+}
+
+  /* ====== PORTFOLIO ======== */
+
+section.portfolio{
+  width:100%;
+  height:227%;
+  clear:both;
+  outline:1px solid red;
+padding:10px 40px;
+  background-color:rgba(0,0,0,.85);
+}
+
+@media only screen and (max-width:800px){
+section.portfolio{
+  height:437%;
+ }
+}
+
+.portfolioContain{
+   width:100%;
+   max-width:1300px;
+   margin:0 auto;
+  height:100%;
+  position:relative;
+  top:-70px;
+  outline:1px solid red;
+
+}
+
+.portfoliothumb{
+  width:50%;
+  height:400px;
+  outline:1px solid red;
+  padding:20px;
+transition:.5s;
+
+
+}
+
+.portfoliothumb:hover{
+  background-color:rgba(100,100,100,.5);
+
+  }
+
+ .portfolioImg{
+   text-align:center;
+   overflow:hidden;
+background-color: #212529;
+background: linear-gradient(180deg,
+       rgba(100, 0, 0, 1) 0%,
+       rgba(255, 20, 20, 1) 100%);
+
+  }
+
+ .portfolioImg img{
+  transition:.5s;
+
+ }
+  .portfolioImg:hover img{
+  transform:scale(1.01,1.01);
+  opacity:.3;
+ }
+
+
+.portfoliothumb.left{
+  /*background-color:green;*/
+   float:left;
+   position:relative;
+   top:-32px;
+   margin:0px;
+}
+
+.portfolioImg.left{
+  width:100%;
+  height:100%;
+}
+
+
+.portfoliothumb.right{
+  /*background-color:red;*/
+   position:relative;
+   float:right;
+   margin:0px;
+}
+
+.portfolioImg.right{
+  width:100%;
+  height:100%;
+
+}
+
+
+.title{
+  width:93%;
+  position:absolute;
+  top:37%;
+  color:white;
+opacity:0;
+transition:1s;
+   z-index:10;
+}
+
+.disciplines{
+  width:93%;
+  position:absolute;
+  top:51%;
+   color:white;
+   opacity:0;
+   transition:1s;
+   z-index:10;
+}
+
+.portfolioImg:hover .title{
+  opacity:1;
+top:40%;
+  }
+
+  .portfolioImg:hover .disciplines{
+  opacity:1;
+ top:49%;
+  }
+
+
+@media only screen and (max-width:800px){
+section.portfolio{
+ padding:10px 10px;
+ }
+ .portfoliothumb{
+  padding:25px;
+
+}
+.portfoliothumb{
+  height:400px;
+
+}
+
+.portfoliothumb.left{
+
+  width:100%;
+   float: none;
+
+   margin:0px;
+}
+
+.portfoliothumb.right{
+
+   float: none;
+   width:100%;
+   margin:0px;
+   top:-31px;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width:1400px){
+.portfoliothumb{
+  height:500px;
+
+}
+
+section.portfolio{
+  height:285%;
+}
+
+
+
+@media only screen and (max-width:425px){
+
+h2.projectTitle{
+    font-size:40px;
+    margin-top:-40px;
+
+
+}
