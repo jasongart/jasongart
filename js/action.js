@@ -20,7 +20,6 @@ function showMobileMenu() {
     // mmChoice[0].classList.toggle("moveIn");
     // mmChoice[1].classList.toggle("moveIn");
     // mmChoice[2].classList.toggle("moveIn");
-    console.log(menuVisible);
   };
 
   function hideMobileMenu(){
@@ -32,6 +31,5 @@ function showMobileMenu() {
       mmChoice[i].classList.remove("moveIn");
       }
       menuVisible = false;
-      console.log(menuVisible);
     }
   }

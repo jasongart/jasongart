@@ -1,5 +1,4 @@
 var portfolioImg = document.getElementsByClassName("portfolioImg");
-portfolioImg.addEventListener("hover", projectDetails);
 
 // var scrollNext = document.getElementById("scrollNext");
 
