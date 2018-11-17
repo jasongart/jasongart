@@ -178,14 +178,14 @@ div.principle{
   padding: 20px;
 }
 
-.section.hero{
+.hero{
 /* background-color:gray; */
 
   height: 75%;
   min-height: 550px;
 }
 
-.section.hero.home{
+.hero.home{
 /* background-color:gray; */
 
   height: 95%;

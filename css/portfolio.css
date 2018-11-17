@@ -41,7 +41,10 @@ background-color:gray;
 
 div.spacer{height:0px; width:100%; clear:both;}
 
-img.portfolioMargins {display:block; margin:100px auto 100px;}
+img.portfolioMargins {display: block; margin:25px auto 60px}
+
+.textMargin p{margin:100px auto 250px; outline:1px solid red;}
+
 
 @media only screen and (max-width:768px)
 {
@@ -216,7 +219,7 @@ processTabContain{
 .projectDescription{
   width: 100%;
   max-width: 1200px;
-  padding: 10px 20px 0px;
+  padding: 10px 20px;
   margin: 0px auto 0;
 }
 
@@ -227,7 +230,7 @@ processTabContain{
   color: black;
   width:90%;
   max-width:1200px;
-  margin:60px auto 60px;
+  margin:30px auto 10px;
   text-align:left;
 }
 
@@ -238,7 +241,7 @@ processTabContain{
   color: black;
   width:90%;
   max-width:1200px;
-  margin:30px auto;
+  margin:30px auto 10px;
   text-align:left;
 }
 
@@ -415,14 +418,21 @@ a.backToTop:hover i.fas{
   top:-10px;
  }
 
-section.projRow.cscrbHifi img{
+/* section.projRow.cscrbHifi img{
   width:90%;
   margin:30px auto;
   display:block;
+  box-shadow:0px 0px 45px gray;
   border:1px solid black;
+} */
+
+img.dropShadow{
+  width:90%;
+  margin:50px auto;
+  display:block;
+  box-shadow:0px 0px 45px gray;
+  /* border:1px solid black; */
 }
-
-
 
 .secTitle {
   background-color:#ef6c00;
@@ -513,11 +523,14 @@ section.specialize{
 
 
 img.survey{
-  max-width:900px; width:90%; display:block; margin:0 auto;
+  max-width:900px;
+  width:90%;
+  display:block;
+  /* margin:30px auto 150px; */
 }
 
 img.survey.mob{
-  max-width:900px; width:90%; margin:0 auto; display:none;
+  max-width:900px; width:90%; margin:30px auto 150px; display:none;
 }
 
 @media only screen and (max-width:800px)
@@ -575,8 +588,8 @@ font-style: italic;
 
 
 .projectDescription{
-  padding: 10px;
-  margin: 20px auto 0;
+  /* padding: 10px;
+  margin: 20px auto 0; */
 
 }
 
@@ -626,7 +639,7 @@ a.nav-link{font-family:roboto, arial, sans; font-size:24px; color:black;}
 }
 
 section.section .projectDescription{
-  margin-top:-30px;
+  /* margin-top:-30px; */
   padding-top:0px;
   outline:0px solid red;
 }
