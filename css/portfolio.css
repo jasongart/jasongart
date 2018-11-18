@@ -43,7 +43,7 @@ div.spacer{height:0px; width:100%; clear:both;}
 
 img.portfolioMargins {display: block; margin:25px auto 60px}
 
-.textMargin p{margin:100px auto 250px; outline:1px solid red;}
+/* .textMargin p{margin:100px auto 250px; outline:1px solid red;} */
 
 
 @media only screen and (max-width:768px)
@@ -642,4 +642,18 @@ section.section .projectDescription{
   /* margin-top:-30px; */
   padding-top:0px;
   outline:0px solid red;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
