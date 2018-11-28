@@ -22,3 +22,14 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+$(window).scroll(function(){
+  if ($(window).scrollTop() > 700){
+    $(".uxNav").addClass("uxNavIn");
+    // console.log("scroll is below 800");
+  }
+  else{
+    $(".uxNav").removeClass("uxNavIn");
+    // console.log("scroll is above 670");
+  }
+});

@@ -245,6 +245,16 @@ processTabContain{
   text-align:left;
 }
 
+.projectDescription h5{
+  font-family: roboto, arial, sans-serif;
+  line-height: 1.25em;
+  color: black;
+  width:90%;
+  max-width:1200px;
+  margin:30px auto 10px;
+  text-align:left;
+}
+
 
 
 
@@ -462,7 +472,7 @@ img.dropShadow{
   border-radius:10px;
   padding:10px 20px;
   display:block;
-  margin:0 auto;
+  margin:30px auto 10px;
  text-align:center;
   font-size:22px;
   color:white;
@@ -656,4 +666,80 @@ section.section .projectDescription{
     height:100%;
     width:100%;
     position:absolute;
+}
+
+
+/* DOT NAVIGATION */
+
+.uxNav{
+  outline:0px solid;
+  padding:3px;
+  width:55px;
+  transition:.3s;
+  position:fixed;
+  right:-55px;
+  top:25px;
+  background-color:lightgray;
+  opacity:0;
+}
+
+.uxNavIn{
+  right:0;
+  margin-right:-14px;
+  opacity:1;
+}
+
+.uxNavItem{
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  outline:0px;
+  border:0px;
+  display:block;
+  margin:15px 10px;
+  background-color:lightgray;
+  border:1px solid white;
+  transition:.3s;
+}
+
+.uxNavItem:hover, .uxNavItem:focus{
+  outline:0px;
+  background-color:#ef6c00;
+  transform:scale(1.2, 1.2);
+  border:1px solid #ef6c00;
+}
+
+.uxTooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: -55%;
+  left: -1000%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family:roboto, arial, sans-serif;
+  font-size:15px;
+  font-weight:100;
+}
+
+.uxTooltip::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 104%;
+  margin-left: -5.5px;
+  border-width: 6px;
+  border-style: solid;
+  border-color:  transparent transparent transparent gray;
+}
+
+.uxNavItem:hover .uxTooltip {
+  visibility: visible;
+  opacity: 1;
 }

@@ -9,6 +9,8 @@ menuButton.addEventListener("click", showMobileMenu);
 window.addEventListener("scroll", hideMobileMenu);
 // scrollNext.addEventListener("click", scrollToNext);
 
+
+
 function showMobileMenu() {
     menuButton.classList.toggle("change");
     mobileMenu.classList.toggle("reveal");
