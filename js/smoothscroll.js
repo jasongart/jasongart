@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 $(window).scroll(function(){
   if ($(window).scrollTop() > 700){
-    $(".uxNav").addClass("uxNavIn");
+    $(".uxNav").addClass("uxNavIn"); 
     // console.log("scroll is below 800");
   }
   else{
