@@ -19,13 +19,13 @@ $(document).ready(function(){
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    } // End if 
   });
 });
 
 $(window).scroll(function(){
   if ($(window).scrollTop() > 700){
-    $(".uxNav").addClass("uxNavIn"); 
+    $(".uxNav").addClass("uxNavIn");
     // console.log("scroll is below 800");
   }
   else{
