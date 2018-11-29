@@ -673,8 +673,7 @@ section.section .projectDescription{
 
 .uxNav{
   outline:0px solid;
-  padding:3px;
-  width:55px;
+  width:75px;
   transition:.3s;
   position:fixed;
   right:-55px;
@@ -685,31 +684,106 @@ section.section .projectDescription{
 
 .uxNavIn{
   right:0;
-  margin-right:-14px;
+  margin-right:0px;
   opacity:1;
 }
 
 .uxNavItem{
-  width:15px;
-  height:15px;
-  border-radius:50%;
+  width:100%;
+  height:55px;
   outline:0px;
   border:0px;
   display:block;
-  margin:15px 10px;
-  background-color:lightgray;
-  border:1px solid white;
+  background-color:gray;
+  border:0px solid white;
   transition:.3s;
+  text-align:center;
+  font-size:12px;
+  margin-bottom:2px;
+  padding-top:10px;
+  color:white;
+  font-family:roboto, arial, sans-serif;
+  font-weight:100;
 }
+
+.uxNavItem i{
+  font-size:20px;
+  }
 
 .uxNavItem:hover, .uxNavItem:focus{
   outline:0px;
   background-color:#ef6c00;
-  transform:scale(1.2, 1.2);
-  border:1px solid #ef6c00;
+  transform:scale(1, 1);
+
 }
 
-.uxTooltip {
+.uxNav a:hover{
+  text-decoration:none;
+}
+
+#uxNavToggle{
+  border-width: 6px;
+  border-style: solid;
+  border-color:  transparent transparent transparent gray;
+}
+
+@media only screen and (max-width:600px){
+  .uxNav{
+  outline:0px solid;
+  width:100%;
+  transition:.3s;
+  position:fixed;
+  right:0;
+  top:initial;
+  bottom:-1.5px;
+  background-color:initial;
+  opacity:0;
+}
+
+.uxNavIn{
+  right:0;
+  margin-right:0px;
+  opacity:1;
+}
+
+.uxNavItem{
+  width:20%;
+  height:55px;
+  outline:0px;
+  border:0px;
+  float:left;
+  background-color:gray;
+  border:1px solid gray;
+  transition:.3s;
+  text-align:center;
+  font-size:12px;
+  margin-bottom:2px;
+  padding-top:10px;
+  color:white;
+  font-family:roboto, arial, sans-serif;
+  font-weight:100;
+}
+
+.uxNav.four .uxNavItem{
+  width:25%;
+  height:55px;
+  outline:0px;
+  border:0px;
+  float:left;
+  background-color:gray;
+  border:1px solid gray;
+  transition:.3s;
+  text-align:center;
+  font-size:12px;
+  margin-bottom:2px;
+  padding-top:10px;
+  color:white;
+  font-family:roboto, arial, sans-serif;
+  font-weight:100;
+}
+}
+
+/* .uxTooltip {
   visibility: hidden;
   width: 120px;
   background-color: gray;
@@ -719,8 +793,8 @@ section.section .projectDescription{
   padding: 2px 0;
   position: absolute;
   z-index: 1;
-  bottom: -55%;
-  left: -1000%;
+  bottom: 21%;
+  left: -191%;
   opacity: 0;
   transition: opacity 0.3s;
   font-family:roboto, arial, sans-serif;
@@ -742,4 +816,4 @@ section.section .projectDescription{
 .uxNavItem:hover .uxTooltip {
   visibility: visible;
   opacity: 1;
-}
+} */
