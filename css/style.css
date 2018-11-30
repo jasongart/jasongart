@@ -159,12 +159,17 @@ font-family:roboto, arial, sans-serif;
 
 }
 #menuRight ul li a:active{
-  color: dark#ef6c00;
+  color: #ef6c00;
   border-bottom:1px solid white;
 }
 
 
   /* ====== SECTIONS ======== */
+
+#selectedprojects{
+  padding-top:35px;
+  margin-bottom:25px;
+}
 
   #contentContain{
     height:100%;
