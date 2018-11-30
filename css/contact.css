@@ -1,10 +1,9 @@
 section.contact{
-  height:100%;
   width:80%;
   max-width:900px;
   min-height: 700px;
   margin:80px auto 25px;
-
+  outline:0px solid red;
 }
 
 section.contact h2{
@@ -33,4 +32,20 @@ section.contact button{
 section.contact form{
   margin:50px 0;
   font-family:roboto, arial, sans-serif;
+}
+
+@media only screen and (max-width:700px){
+section.contact{
+  margin:25px auto 25px;
+  outline:0px solid red;
+}
+
+  section.contact h2{
+  font-size:40px;
+  }
+
+section.contact p{
+  font-weight:100;
+  font-size:18px;
+}
 }
