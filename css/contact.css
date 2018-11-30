@@ -48,4 +48,25 @@ section.contact p{
   font-weight:100;
   font-size:18px;
 }
+
+
+}
+
+@media only screen and (max-height:750px){
+.wrap{
+  margin-bottom:100px;
+
+}
+
+@media only screen and (max-height:670px){
+.wrap{
+  margin-bottom:200px;
+
+}
+
+
+@media only screen and (max-height:575px){
+.wrap{
+  margin-bottom:290px;
+
 }
