@@ -681,7 +681,7 @@ section.section .projectDescription{
   position:fixed;
   right:-55px;
   top:25px;
-  background-color:lightgray;
+  background-color:#aaa;
   opacity:0;
 }
 
@@ -697,7 +697,7 @@ section.section .projectDescription{
   outline:0px;
   border:0px;
   display:block;
-  background-color:lightgray;
+  background-color:#aaa;
   border:0px solid white;
   transition:.3s;
   text-align:center;
@@ -741,7 +741,7 @@ section.section .projectDescription{
   top:-75px;
   /*bottom:-1.5px;*/
   background-color:initial;
-  box-shadow:0px 1px 30px #555;
+  box-shadow:0px 1px 30px #111;
   opacity:0;
 
 }
@@ -784,8 +784,8 @@ hr{
   outline:0px;
   border:0px;
   float:left;
-  background-color:gray;
-  border:1px solid gray;
+  background-color:#aaa;
+  border:0px solid gray;
   transition:.3s;
   text-align:center;
   font-size:12px;
