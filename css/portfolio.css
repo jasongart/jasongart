@@ -514,7 +514,7 @@ section.specialize{
 
 
 .details{
-  margin:0px auto;
+  margin:40px auto 0px;
   width:80%;
   max-width:390px;
   outline:0px solid red;
@@ -683,6 +683,7 @@ section.section .projectDescription{
   top:25px;
   background-color:#aaa;
   opacity:0;
+  z-index: 1;
 }
 
 .uxNavIn{
@@ -730,6 +731,17 @@ section.section .projectDescription{
   border-color:  transparent transparent transparent gray;
 }
 
+hr{
+  border:1px solid white;
+  margin-top:0px;
+}
+
+
+hr.mobilePadding{
+  border:1px solid white;
+  /* display: none; */
+}
+
 @media only screen and (max-width:600px){
   .uxNav{
   outline:0px solid;
@@ -740,7 +752,7 @@ section.section .projectDescription{
   right:0;
   top:-75px;
   /*bottom:-1.5px;*/
-  background-color:initial;
+  background-color:#aaa;
   box-shadow:0px 1px 30px #111;
   opacity:0;
 
@@ -750,9 +762,9 @@ section.section .projectDescription{
   margin-top:80px;
 }
 
-hr{
-  border:1px solid white;
-}
+/* hr.mobilePadding{
+  display: initial;
+} */
 
 .uxNavIn{
   right:0;

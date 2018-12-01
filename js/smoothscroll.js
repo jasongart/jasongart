@@ -1,3 +1,6 @@
+//smoothscrolling code
+
+
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $(".scrollLink").on('click', function(event) {
@@ -23,6 +26,10 @@ $(document).ready(function(){
   });
 });
 
+
+//checking for position to reveal UX nav
+
+
 $(window).scroll(function(){
   if ($(window).scrollTop() > 700){
     $(".uxNav").addClass("uxNavIn");
@@ -32,4 +39,32 @@ $(window).scroll(function(){
     $(".uxNav").removeClass("uxNavIn");
     // console.log("scroll is above 670");
   }
+});
+
+var uxNavButton = document.querySelectorAll(".uxNavItem");
+var uxNavSection = document.querySelectorAll(".section");
+
+
+
+//checking for position to turn UX nav button orange
+
+$(uxNavSection).each(function(index){
+  var navSec = uxNavSection[index];
+  var navBut = uxNavButton[index];
+
+
+  $(window).scroll(function(){
+    var navPos = $(navSec).offset().top;
+    var secBot = navPos + $(navSec).outerHeight(true);
+
+    if ($(this).scrollTop() > navPos && $(this).scrollTop() < secBot){
+      $(navBut).css("background-color", "#ef6c00");
+    }
+
+    else {
+      $(navBut).css("background-color", "initial");
+    }
+  });
+
+
 });
