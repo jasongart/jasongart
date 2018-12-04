@@ -809,37 +809,19 @@ hr.mobilePadding{
 }
 }
 
-/* .uxTooltip {
-  visibility: hidden;
-  width: 120px;
-  background-color: gray;
-  color: #fff;
-  text-align: center;
-  border-radius: 2px;
-  padding: 2px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 21%;
-  left: -191%;
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-family:roboto, arial, sans-serif;
-  font-size:15px;
-  font-weight:100;
-}
+@media only screen and (min-height:1100px) and (min-width:1100px){
+    .projectTitle{
+     font-size:76px;
+     }
 
-.uxTooltip::after {
-  content: "";
-  position: absolute;
-  top: 25%;
-  left: 104%;
-  margin-left: -5.5px;
-  border-width: 6px;
-  border-style: solid;
-  border-color:  transparent transparent transparent gray;
-}
+     .categories{
+         font-size:34px;
+         font-family:roboto, arial, sans-serif;
+         font-weight:300;
+     }
 
-.uxNavItem:hover .uxTooltip {
-  visibility: visible;
-  opacity: 1;
-} */
+     .heroDescription{
+         font-size:24px;
+         max-width:725px;
+     }
+}

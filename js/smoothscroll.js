@@ -29,9 +29,13 @@ $(document).ready(function(){
 
 //checking for position to reveal UX nav
 
+var heroSec = document.querySelectorAll(".hero");
+
 
 $(window).scroll(function(){
-  if ($(window).scrollTop() > 700){
+  var heroPos = $(heroSec).offset().top;
+  var heroBot = heroPos + $(heroSec).outerHeight(true);
+  if ($(window).scrollTop() > heroBot){
     $(".uxNav").addClass("uxNavIn");
     // console.log("scroll is below 800");
   }
