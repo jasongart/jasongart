@@ -197,6 +197,22 @@ div.principle{
   min-height: 550px;
 }
 
+.heroAbout{
+  height: 550px;
+}
+
+@media only screen and (max-width:600px){
+.heroAbout{
+ height: 475px;
+}
+}
+
+@media only screen and (max-width:550px){
+.heroAbout{
+ height: 425px;
+}
+}
+
 .hero.home{
 /* background-color:gray; */
 

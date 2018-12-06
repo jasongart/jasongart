@@ -28,11 +28,10 @@
 
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/about.css">
         <link rel="stylesheet" type="text/css" href="css/principles.css">
         <link rel="stylesheet" type="text/css" href="css/portfolio.css">
         <link rel="stylesheet" type="text/css" href="css/menu.css">
-
+        <link rel="stylesheet" type="text/css" href="css/about.css">
 
       </head>
 
@@ -75,7 +74,7 @@
 <!-- ====== HERO ======= -->
 
 
-<section class="hero about" id="about" data-parallax="scroll" data-image-src="images/family.jpg">
+<section class="heroAbout" id="about" >
 
   <div id="heroContain">
     <div class="projectHead">
@@ -261,5 +260,33 @@
 
 <!-- <script src="js/smoothscroll.js"></script> -->
 <script src="js/parallax.min.js"></script>
+
+
+<script>
+
+$(window).on("load", function(){
+    if (window.innerWidth < 500){
+        $('#about').parallax({imageSrc: 'images/me.jpg'});
+        console.log("innerWidth below 500");
+        // $("#about").attr("data-image-src", "images/me.jpg");
+    }
+    else{
+        $('#about').parallax({imageSrc: 'images/family.jpg'});
+        console.log("innerWidth above 500");
+        // $("#about").attr("data-image-src", "images/family.jpg");
+    }
+});
+
+$(window).resize(function(){
+    if (window.innerWidth < 500){
+        $('#about').parallax({imageSrc: 'images/me.jpg'});
+        console.log("innerWidth below 500");
+    }
+    else{
+        $('#about').parallax({imageSrc: 'images/family.jpg'});
+        console.log("innerWidth above 500");
+    }
+});
+</script>
 
 </html>

@@ -3,10 +3,11 @@ var mobileMenu = document.getElementById("mobileMenu");
 var mobileNav = document.getElementById("mobileNav");
 var mmChoice = document.getElementsByClassName("mmChoice");
 var menuVisible = false;
+
 // var scrollNext = document.getElementById("scrollNext");
 
 var year = new Date().getFullYear();
-document.getElementById("copyright").innerHTML = "&copy; " + year + " Jason Garthoffner. <span class=\"nextLine\">All rights Reserved.</span>"; 
+document.getElementById("copyright").innerHTML = "&copy; " + year + " Jason Garthoffner. <span class=\"nextLine\">All rights Reserved.</span>";
 
 menuButton.addEventListener("click", showMobileMenu);
 window.addEventListener("scroll", hideMobileMenu);
@@ -37,4 +38,4 @@ function showMobileMenu() {
       }
       menuVisible = false;
     }
-  }
+};
