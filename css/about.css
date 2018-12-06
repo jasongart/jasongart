@@ -1,10 +1,10 @@
-section.heroAbout{
+/* section.heroAbout{
   display:block;
 }
 
 section.heroAbout.mobile{
   display:none;
-}
+} */
 
 
 
@@ -410,7 +410,7 @@ animation-iteration-count:infinite;
   100%{top:15px;opacity:0;}
 }
 
-@media only screen and (max-width:600px){
+/* @media only screen and (max-width:600px){
   section.heroAbout{
     display:none;
   }
@@ -420,4 +420,4 @@ animation-iteration-count:infinite;
     background-image: url("../images/me.jpg");
     background-size:cover;
   }
-}
+} */
