@@ -253,9 +253,9 @@ processTabContain{
   max-width:1200px;
   margin:30px auto 10px;
   text-align:left;
+  font-size:36px;
+  font-weight:900;
 }
-
-
 
 
 .projectDescription ul, .projectDescription ol{
@@ -447,7 +447,7 @@ img.dropShadow{
 .secTitle {
   background-color:#ef6c00;
   background-image:linear-gradient(155deg, #ef6c00 25%, orange 75%);
-  width:80%;
+  width:85%;
   max-width:400px;
   min-width:250px;
   text-align:center;
@@ -457,15 +457,16 @@ img.dropShadow{
   letter-spacing:1px;
   padding:10px 20px;
   color:white;
-  font-size:20px;
+  font-size:48px;
+  line-height:1.15em;
   margin:60px auto 0px;
   border-radius:5px;
 }
 
-.secTitle.future{
+/* .secTitle.future{
   width:350px;
 
-}
+} */
 
 
 
@@ -714,8 +715,9 @@ section.section .projectDescription{
   font-size:20px;
   }
 
-.uxNavItem:hover, .uxNavItem:focus{
+.uxNavItem:hover{
   outline:0px;
+  /* background-image:linear-gradient(155deg, #ef6c00 25%, orange 75%); */
   background-color:#ef6c00;
   transform:scale(1, 1);
 
@@ -824,4 +826,25 @@ hr.mobilePadding{
          font-size:24px;
          max-width:725px;
      }
+}
+
+
+@media only screen and (max-width:600px)
+{
+  .projectDescription h5{
+  font-family: roboto, arial, sans-serif;
+  line-height: 1.25em;
+  color: black;
+  width:90%;
+  max-width:1200px;
+  margin:30px auto 10px;
+  text-align:left;
+  font-size:24px;
+  font-weight:900;
+}
+
+.secTitle{
+  font-size:40px;
+}
+
 }

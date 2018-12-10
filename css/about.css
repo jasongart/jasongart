@@ -21,7 +21,7 @@ section.heroAbout.mobile{
 h2.homeIntro{
 text-align:center;
 font-family:roboto slab, georgia, serif;
-font-size:50px;
+font-size:54px;
  width:90%;
   margin:0 auto 20px;
 }
@@ -36,6 +36,7 @@ h3.homeIntroDescription{
   max-width:650px;
   margin:0 auto;
 }
+
 
 
 .homeCTA{
@@ -410,6 +411,22 @@ animation-iteration-count:infinite;
   100%{top:15px;opacity:0;}
 }
 
+/* span.spin{
+  color:initial;
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  outline:1px solid red;
+  padding:10px 5px 0px;
+  animation-timing-function:linear;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+
+} */
+
 /* @media only screen and (max-width:600px){
   section.heroAbout{
     display:none;
@@ -421,3 +438,23 @@ animation-iteration-count:infinite;
     background-size:cover;
   }
 } */
+
+
+@media only screen and (min-width:1100px) and (min-height:1100px){
+  h2.homeIntro{
+  font-size:76px;
+  }
+
+  h3.homeIntroDescription{
+    font-size:40px;
+    max-width:850px;
+    }
+
+  #viewWork a{
+  color:#ef6c00;
+  font-size:28px;
+  font-family:roboto slab, georgia, serif;
+  text-transform:uppercase;
+  transition:.5s;
+}
+}
