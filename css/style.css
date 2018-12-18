@@ -202,28 +202,34 @@ div.principle{
 }
 
 @media only screen and (max-width:600px){
-.heroAbout{
- height: 475px;
-}
+  .heroAbout{
+   height: 475px;
+  }
 }
 
 @media only screen and (max-width:550px){
-.heroAbout{
- height: 425px;
-}
+  .heroAbout{
+   height: 425px;
+  }
 }
 
 .hero.home{
 /* background-color:gray; */
-
+  position:relative;
   height: 95%;
   min-height: 550px;
 }
 
 .section{
- /*overflow:auto;*/
-padding:0;
+   /*overflow:auto;*/
+  padding:0;
 }
+
+.workDotContain{
+  width:100%;
+position:absolute;
+bottom:90px;
+margin:0 auto;}
 
 /*
 .section.hero{
