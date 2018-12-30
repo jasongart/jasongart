@@ -17,6 +17,12 @@ div.skew.bottom{
    bottom:0px;
 } */
 
+img {
+  width:90%;
+  max-width:1000px;
+  margin:0 auto;
+}
+
 h3#selectedprojects{
   height:100px;
   text-align: center;
@@ -133,8 +139,10 @@ margin-top:0px;
 }
 
 .projectDetail p{
-  font-family:roboto, arial, sans-serif;
-line-height:1.75em;
+  font-family: roboto, arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight:200;
 }
 
 .projectDetFullRow{
@@ -217,17 +225,18 @@ processTabContain{
 }
 
 .projectDescription{
-  width: 100%;
-  max-width: 1200px;
+  width: 80%;
+  max-width: 1000px;
   padding: 10px 20px;
-  margin: 0px auto 0;
+  margin: 200px auto;
+  color: #444;
 }
 
 .projectDescription p{
   font-family: roboto, arial, sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.5em;
-  color: black;
+  font-weight:200;
   width:90%;
   max-width:1200px;
   margin:30px auto 10px;
@@ -235,37 +244,30 @@ processTabContain{
 }
 
 .projectDescription.paragraph p{
-  font-family: roboto, arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5em;
-  color: black;
-  width:90%;
-  max-width:1200px;
-  margin:30px auto 10px;
-  text-align:left;
+
 }
 
 .projectDescription h5{
   font-family: roboto, arial, sans-serif;
   line-height: 1.25em;
-  color: black;
+
   width:90%;
   max-width:1200px;
-  margin:30px auto 10px;
+  margin:50px auto 10px;
   text-align:left;
-  font-size:36px;
-  font-weight:900;
+  font-size:20px;
+  font-weight:600;
 }
 
 
 .projectDescription ul, .projectDescription ol{
-  font-family: roboto, arial, sans-serif;
-  font-size: 19px;
+font-family: roboto, arial, sans-serif;
+  font-size: 20px;
   line-height: 1.5em;
-  color: black;
+  font-weight:200;
   width:90%;
   max-width:1200px;
-  margin:30px auto 30px;
+  margin:30px auto 10px;
   text-align:left;
 }
 
@@ -273,9 +275,6 @@ processTabContain{
   font-family: roboto, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5em;
-  color: black;
-  width:90%;
-  max-width:1200px;
   margin:15px 0px;
   text-align:left;
 }
@@ -437,7 +436,6 @@ a.backToTop:hover i.fas{
 } */
 
 img.dropShadow{
-  width:95%;
   margin:50px auto;
   display:block;
   box-shadow:0px 0px 35px gray;
@@ -445,28 +443,30 @@ img.dropShadow{
 }
 
 .secTitle {
-  background-color:#ef6c00;
-  background-image:linear-gradient(155deg, #ef6c00 25%, orange 75%);
-  width:85%;
-  max-width:400px;
-  min-width:250px;
+  border-bottom:1px solid #ef6c00;
+  width:90%;
   text-align:center;
   font-family:roboto,arial, sans-serif;
-  font-weight:800;
   text-transform:uppercase;
   letter-spacing:1px;
-  padding:10px 20px;
   color:white;
-  font-size:48px;
   line-height:1.15em;
   margin:60px auto 0px;
-  border-radius:5px;
+  position:relative;
+  top:20px;
 }
 
-/* .secTitle.future{
-  width:350px;
-
-} */
+.secTitle span{
+  color:#ef6c00;
+  background-color:white;
+  border-top:1px solid #ef6c00;
+  border-left:1px solid #ef6c00;
+  border-right:1px solid #ef6c00;
+  border-radius:7px 7px 0 0;
+  font-size:28px;
+  font-weight:400;
+  padding:15px 25px 0px;
+}
 
 
 
@@ -498,9 +498,9 @@ section.specialize{
 
 .detailWrap{
   width:100%;
-  max-width:1160px;
+  max-width:1000px;
   height:200px;
-  margin:10px auto 30px;
+  margin:30px auto 30px;
   outline:0px solid red;
 }
 
@@ -510,29 +510,21 @@ section.specialize{
 
 
 .detailWrap h4{
- font-family: roboto slab, georgia, serif;
+ font-family:roboto, arial, sans-serif;
+ font-size:28px;
+ font-weight:200;
 }
 
 
 .details{
-  margin:40px auto 0px;
+  margin:100px auto 0px;
   width:80%;
+  padding:15px;
   max-width:390px;
-  outline:0px solid red;
+  border:1px solid #999;
   float:none;
   height:auto;
 
-}
-
-.projectDescription.oneLine p{
-  text-align: left;
-}
-
-@media only screen and (min-width:950px)
-{
-  .projectDescription.oneLine p{
-    text-align: center;
-  }
 }
 
 
@@ -658,18 +650,22 @@ section.section .projectDescription{
   outline:0px solid red;
 }
 
+/*
 .video-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
 }
+*/
+
 .video-responsive iframe{
-    left:0;
-    top:0;
+   /* left:0;
+    top:0;*/
     height:100%;
-    width:100%;
-    position:absolute;
+    min-height:315px;
+    width:90%;
+    max-width:560px;
 }
 
 
@@ -685,6 +681,8 @@ section.section .projectDescription{
   background-color:#aaa;
   opacity:0;
   z-index: 1;
+  border-radius:7px 0px 0px 7px;
+  overflow:hidden;
 }
 
 .uxNavIn{
@@ -826,25 +824,4 @@ hr.mobilePadding{
          font-size:24px;
          max-width:725px;
      }
-}
-
-
-@media only screen and (max-width:600px)
-{
-  .projectDescription h5{
-  font-family: roboto, arial, sans-serif;
-  line-height: 1.25em;
-  color: black;
-  width:90%;
-  max-width:1200px;
-  margin:30px auto 10px;
-  text-align:left;
-  font-size:24px;
-  font-weight:900;
-}
-
-.secTitle{
-  font-size:40px;
-}
-
 }
