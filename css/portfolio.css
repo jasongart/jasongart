@@ -228,7 +228,7 @@ processTabContain{
   width: 80%;
   max-width: 1000px;
   padding: 10px 20px;
-  margin: 200px auto;
+  margin: 170px auto;
   color: #444;
 }
 
@@ -521,7 +521,7 @@ section.specialize{
   width:80%;
   padding:15px;
   max-width:390px;
-  border:1px solid #999;
+  border:.5px solid #999;
   float:none;
   height:auto;
 

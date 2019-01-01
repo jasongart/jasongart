@@ -21,7 +21,7 @@ section.heroAbout.mobile{
 h2.homeIntro{
 text-align:center;
 font-family:roboto slab, georgia, serif;
-font-size:54px;
+font-size:40px;
  width:90%;
   margin:0 auto 20px;
 }
@@ -47,11 +47,11 @@ h3.homeIntroDescription{
 @media only screen and (max-width:700px)
 {
   h2.homeIntro{
-    font-size:40px;
+    font-size:30px;
   }
 
     h3.homeIntroDescription{
-  font-size:24px;
+  font-size:23px;
 
 }
 }
@@ -59,7 +59,7 @@ h3.homeIntroDescription{
 @media only screen and (max-width:374px)
 {
   h2.homeIntro{
-    font-size:30px;
+    font-size:24px;
   }
 
     h3.homeIntroDescription{
@@ -374,7 +374,7 @@ section.homeCTA{
 
 #viewWork a{
   color:#ef6c00;
-  font-size:24px;
+  font-size:21px;
   font-family:roboto slab, georgia, serif;
   text-transform:uppercase;
   transition:.5s;
@@ -427,10 +427,18 @@ animation-iteration-count:infinite;
   transition:.5s;
 }
 
-@keyframes viewWorkDotUp{
+/* @keyframes viewWorkDotUp{
   0% {bottom:0; opacity:0;}
   50% {opacity:1; }
   100%{bottom:25px;opacity:0;}
+} */
+
+@keyframes viewWorkDotUp{
+  0% {bottom:0; opacity:0;transform:scale(1)}
+  14%{transform:scale(1)}
+  33% {bottom:20px; opacity:1; transform:scale(1)}
+  66% {opacity:1; transform:scale(.7); opacity:0;}
+  100%{bottom:0px;opacity:0;}
 }
 
 @media only screen and (max-width:600px){
