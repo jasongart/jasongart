@@ -229,7 +229,9 @@ div.principle{
   width:100%;
 position:absolute;
 bottom:90px;
-margin:0 auto;}
+margin:0 auto;
+transition:.3s;
+}
 
 /*
 .section.hero{
@@ -700,6 +702,7 @@ top:55%;
   width:90%;
   /*outline:1px solid;*/
   margin:0 auto;
+  padding:0 20px;
   position:absolute;
   font-size:28px;
   top:36%;

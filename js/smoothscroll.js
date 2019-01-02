@@ -72,3 +72,16 @@ $(uxNavSection).each(function(index){
 
 
 });
+
+// hides CTA dot after scrolling halfway down the hero
+
+$(window).scroll(function(){
+  if ($(window).scrollTop() > 350){
+    $(".workDotContain").css("opacity","0");
+     // console.log("scroll is above 350");
+  }
+  else{
+    $(".workDotContain").css("opacity","1");
+
+  }
+});

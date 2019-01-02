@@ -29,7 +29,7 @@ font-size:40px;
 h3.homeIntroDescription{
   text-align:center;
   font-family: roboto, arial, sans-serif;
-  font-weight:300;
+  font-weight: 300;
   font-size:32px;
   line-height:1.25em;
   width:90%;
@@ -47,12 +47,11 @@ h3.homeIntroDescription{
 @media only screen and (max-width:700px)
 {
   h2.homeIntro{
-    font-size:30px;
+    font-size:28px;
   }
 
     h3.homeIntroDescription{
-  font-size:23px;
-
+  font-size: 21px;
 }
 }
 
@@ -63,8 +62,18 @@ h3.homeIntroDescription{
   }
 
     h3.homeIntroDescription{
-  font-size:22px;
+  font-size: 20px;
+}
+}
 
+@media only screen and (max-width:330px)
+{
+  h2.homeIntro{
+    font-size:22px;
+  }
+
+    h3.homeIntroDescription{
+  font-size: 18px;
 }
 }
 
@@ -195,6 +204,7 @@ height:100%;
   animation:arrowHover 2s infinite;
   transition:.3s;
   }
+
 
 }
 
@@ -374,7 +384,7 @@ section.homeCTA{
 
 #viewWork a{
   color:#ef6c00;
-  font-size:21px;
+  font-size:24px;
   font-family:roboto slab, georgia, serif;
   text-transform:uppercase;
   transition:.5s;
@@ -399,7 +409,7 @@ i#viewWorkArrow{
 i#viewWorkArrow.fas
 {
   animation:viewWorkArrowDown 2s;
-animation-iteration-count:infinite;
+  animation-iteration-count:infinite;
   position:relative;
   transition:.5s;
 }
@@ -425,6 +435,7 @@ animation-iteration-count:infinite;
   animation-iteration-count:infinite;
   position:relative;
   transition:.5s;
+  animation-timing-function:ease;
 }
 
 /* @keyframes viewWorkDotUp{
@@ -433,12 +444,31 @@ animation-iteration-count:infinite;
   100%{bottom:25px;opacity:0;}
 } */
 
-@keyframes viewWorkDotUp{
-  0% {bottom:0; opacity:0;transform:scale(1)}
+/* @keyframes viewWorkDotUp{
+  0% {bottom:0; opacity:0;transform:scale(.7)}
   14%{transform:scale(1)}
-  33% {bottom:20px; opacity:1; transform:scale(1)}
-  66% {opacity:1; transform:scale(.7); opacity:0;}
+  33% {bottom:50px; opacity:1; transform:scale(1)}
+  66% {transform:scale(.7); opacity:0;}
   100%{bottom:0px;opacity:0;}
+}
+
+@keyframes viewWorkDotUp{
+  0% {bottom:0; opacity:0;}
+  10%{transform:scale(1)}
+  33% {bottom:50px; opacity:1;}
+  66% {transform:scale(.5);}
+  75% {opacity:0;}
+  100%{bottom:0px; opacity:0;}
+} */
+
+@keyframes viewWorkDotUp{
+  0% {bottom:0px; opacity:0;}
+  20% {opacity:1;}
+  40%{bottom:30px;}
+  50% {bottom:30px; opacity:1;}
+  50% {bottom:30px; opacity:1;}
+  75% {opacity:0;}
+  100%{bottom:0px; opacity:0;}
 }
 
 @media only screen and (max-width:600px){
@@ -457,7 +487,9 @@ animation-iteration-count:infinite;
   transition:.5s;
 }
 
-
+#viewWork a{
+  font-size:19px;
+  }
   }
 
 
@@ -473,24 +505,25 @@ animation-iteration-count:infinite;
     }
 
   #viewWork a{
-  color:#ef6c00;
   font-size:30px;
-  font-family:roboto slab, georgia, serif;
-  text-transform:uppercase;
-  transition:.5s;
 }
 }
 
 /*STYLING FOR IPAD PRO ONLY*/
 
 @media only screen and (min-width: 1024px) and (max-width:1024px) and (min-height:1366px) and (max-height:1366px) {
+
+  #heroContain.home{
+    top:26%;
+  }
+
       h2.homeIntro{
     font-size:64px;
   }
 
     h3.homeIntroDescription{
   font-size:40px;
-  max-width:750px;
+  max-width:800px;
     }
 
 #viewWork a{
