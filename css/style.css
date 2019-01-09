@@ -54,7 +54,7 @@ hr{
   height:65px;
   float: left;
   color:white;
-  transition:.3s;
+  /* transition:.3s; */
   border:7px solid #ef6c00;
   border-radius:50%;
   text-align:center;
@@ -76,7 +76,7 @@ hr{
 
 .logo h4 a{
 
-  transition:.3s;
+  /* transition:.3s; */
   color:gray;
   position:absolute;
   top:22%;
