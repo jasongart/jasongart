@@ -37,12 +37,12 @@ background-color:gray;
 }
 
 .projectTitle{
-  font-family:roboto slab,arial, sans serif;
-  font-weight:400;
-  color:white;
-  font-size:70px;
-  transition:0s;
-
+  font-family: roboto slab,arial, sans serif;
+  font-weight: 400;
+  color: white;
+  font-size: 60px;
+  transition: 0s;
+  margin: 0px auto 25px;
   }
 
 div.spacer{height:0px; width:100%; clear:both;}
