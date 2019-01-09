@@ -70,7 +70,7 @@ hr{
   margin:7% 5%;
   font-size:23px;
   letter-spacing:1px;
-  transition:.3s;
+  /* transition:.3s; */
   color:gray;
 }
 
