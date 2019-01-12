@@ -18,6 +18,11 @@ section.heroAbout.mobile{
   top:70px;
 }
 
+small#aboutAdd{
+  position:relative;
+  top:50px;
+}
+
 h2.homeIntro{
   text-align:center;
   font-family:roboto slab, georgia, serif;
