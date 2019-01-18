@@ -1,6 +1,4 @@
-
-
-var randomFunFact = document.getElementById("randomFF");
+var randomFunFact = document.getElementById("randomFF"); 
 var randomFFHead = document.getElementById("ffHead");
 var resetFFBut = document.getElementById("resetFF");
 
