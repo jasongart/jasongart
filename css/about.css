@@ -15,13 +15,9 @@ section.heroAbout.mobile{
 
 .projectTitle#about{
   position:relative;
-  top:70px;
+  top:10px;
 }
 
-small#aboutAdd{
-  position:relative;
-  top:50px;
-}
 
 h2.homeIntro{
   text-align:center;
@@ -537,4 +533,72 @@ i#viewWorkArrow.fas
 #viewWork a{
   font-size:36px;
   }
+}
+
+.randomFunFacts{
+  position:relative;
+  top:10px;
+}
+
+.randomFunFacts small{
+  display:block;
+  margin:10px;
+}
+
+#randomFF{
+  transition: .3s;
+  font-family:roboto, arial, sans-serif;
+  width:100%;
+  max-width:600px;
+  margin:0 auto;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#ffHead{
+  font-weight: bold;
+
+}
+
+.ffInit{
+  opacity:0;
+  animation: ffFadeInInit 1s;
+  animation-fill-mode: forwards;
+
+}
+
+.randomFFin{
+  opacity:0;
+  animation: ffFadeIn .5s;
+  /* animation-delay:.75s; */
+  animation-fill-mode: forwards;
+}
+
+.randomFFout{
+  animation: ffFadeOut .5s;
+  animation-fill-mode: forwards;
+}
+
+#resetFF{
+  border: 1px solid white;
+  padding:5px;
+  border-radius: 7px;
+  width:120px;
+  margin:20px auto 0;
+  cursor: pointer;
+}
+
+@keyframes ffFadeInInit {
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+
+@keyframes ffFadeIn {
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+
+@keyframes ffFadeOut {
+  0%{opacity:1;}
+  100%{opacity:0;}
 }
