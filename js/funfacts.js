@@ -1,4 +1,4 @@
-var randomFunFact = document.getElementById("randomFF"); 
+var randomFunFact = document.getElementById("randomFF");
 var randomFFHead = document.getElementById("ffHead");
 var resetFFBut = document.getElementById("resetFF");
 
@@ -45,7 +45,7 @@ var resetFFBut = document.getElementById("resetFF");
 
         "When I was a teenager I taught myself how to juggle using balled up socks.",
 
-        "Despite enjoying the collaborative nature of my career, I am a total introvert.",
+        "Despite enjoying the highly collaborative nature of my work, I can be quite the introvert too.",
 
         "I don't have any tattoos because I have commitment issues.",
 
