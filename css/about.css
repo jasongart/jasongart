@@ -139,7 +139,7 @@ h3.homeIntroDescription{
 .specialize h2, .principles h2, .bottomCTA h2{
     font-family:roboto slab, georgia, serif;
     font-weight: 400;
-    font-size:36px;
+    /* font-size:36px; */
     padding: 20px;
     text-align:center;
 
@@ -149,7 +149,7 @@ h3.homeIntroDescription{
   width: 100%;
   font-weight: 400;
   margin: -50px auto -15px;
-  font-size: 36px;
+  /* font-size: 36px; */
 }
 
 
