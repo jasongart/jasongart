@@ -50,6 +50,13 @@
   }
 
   #mobileMenu{display:block;}
+
+  .topNav.portfolio, .topNav.portfolio:hover {
+     box-shadow:none;
+     opacity:1;
+
+   }
+
 }
 
 

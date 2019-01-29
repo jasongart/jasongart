@@ -15,9 +15,11 @@ var resetFFBut = document.getElementById("resetFF");
 
         "I have an excellent attention to detial, and an even greater sense of irony.",
 
-        "I'm the one on the left.",
+        "I'm the one on the right.",
 
         "One of my all-time favorite songs is Weezer's \"Say It Ain\'t So.\"",
+
+        "One of my all-time favorite movies is the \"Back to the Future\" trilogy. I consider it one movie.",
 
         "In my opinion, the four food groups should be prime rib, beer, hummus, and chocolate chip pancakes.",
 

@@ -14,7 +14,7 @@ section.heroAbout.mobile{
 }
 
 .projectTitle#about{
-  position:relative;
+  /* position:relative; */
   top:10px;
 }
 
@@ -26,15 +26,20 @@ h2.homeIntro{
   width:90%;
   margin:0 auto 20px;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-weight: 600;
 }
+
+h2.homeIntro span{
+  font-size: 26px;
+  font-weight: 100;
+ }
 
 h3.homeIntroDescription{
   text-align:center;
   font-family: roboto, arial, sans-serif;
   font-weight: 300;
-  font-size:32px;
+  font-size:20px;
   line-height:1.25em;
   width:90%;
   max-width:650px;
@@ -52,11 +57,15 @@ h3.homeIntroDescription{
 {
   h2.homeIntro{
     font-size:22px;
-    letter-spacing:1.5px;
+    letter-spacing:1px;
   }
 
+  h2.homeIntro span{
+    font-size:20px;
+   }
+
     h3.homeIntroDescription{
-  font-size: 21px;
+  font-size: 19px;
 }
 }
 
@@ -66,16 +75,23 @@ h3.homeIntroDescription{
     font-size:20px;
   }
 
+  h2.homeIntro span{
+    font-size: 18px;
+   }
+
     h3.homeIntroDescription{
-  font-size: 20px;
+  font-size: 18px;
 }
 }
 
 @media only screen and (max-width:330px)
 {
   h2.homeIntro{
-    font-size:18px;
+    font-size: 20px;
   }
+  h2.homeIntro span{
+    font-size:18px;
+   }
 
     h3.homeIntroDescription{
   font-size: 18px;
@@ -130,11 +146,10 @@ h3.homeIntroDescription{
 }
 
 .specialize h2{
-  width:330px;
-  font-weight:300;
-  margin:-50px auto 0px;
-font-size:30px;
-
+  width: 100%;
+  font-weight: 400;
+  margin: -50px auto -15px;
+  font-size: 36px;
 }
 
 
@@ -430,8 +445,8 @@ i#viewWorkArrow.fas
 {
   background-color:#ef6c00;
   display:block;
-  height:20px;
-  width:20px;
+  height:10px;
+  width:10px;
   margin:0 auto;
   border-radius:50%;
   position:absolute;
@@ -479,8 +494,6 @@ i#viewWorkArrow.fas
 #viewWorkDot
 {
   background-color:#ef6c00;
-  height:14px;
-  width:14px;
   margin:0 auto;
   border-radius:50%;
   position:absolute;
@@ -522,11 +535,14 @@ i#viewWorkArrow.fas
   }
 
       h2.homeIntro{
-    font-size:48px;
+    font-size:40px;
   }
+  h2.homeIntro span{
+      font-size: 34px;
+}
 
     h3.homeIntroDescription{
-  font-size:40px;
+  font-size:32px;
   max-width:800px;
     }
 
@@ -580,7 +596,7 @@ i#viewWorkArrow.fas
 }
 
 #resetFF{
-  border: 1px solid white;
+  border: 1px solid #444;
   padding:5px;
   border-radius: 7px;
   width:120px;
@@ -601,4 +617,22 @@ i#viewWorkArrow.fas
 @keyframes ffFadeOut {
   0%{opacity:1;}
   100%{opacity:0;}
+}
+
+#me{
+  width:125px;
+  display:block;
+  margin:0 auto 15px;
+  filter:grayscale(100%);
+  transition:1s;
+}
+
+ img#me:hover {filter:grayscale(0%);}
+
+
+@media only screen and (max-width:700px){
+    #me{
+      width:100px;
+      margin:10px auto 10px;
+    }
 }

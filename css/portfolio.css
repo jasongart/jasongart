@@ -39,10 +39,10 @@ background-color:gray;
 .projectTitle{
   font-family: roboto slab,arial, sans serif;
   font-weight: 400;
-  color: white;
+  color: #444;
   font-size: 50px;
   transition: 0s;
-  margin: 0px auto 25px;
+
   }
 
 div.spacer{height:0px; width:100%; clear:both;}
@@ -82,7 +82,8 @@ img.portfolioMargins {display: block; margin:25px auto 60px}
 .projectHead{
     width:100%;
     padding:0px 20px;
-    color:white;
+    margin-bottom:75px;
+    color:#444;
     text-align:center;
 
 }
@@ -120,7 +121,7 @@ margin-top:0px;
     font-weight:400;
     max-width:600px;
     width:95%;
-    margin:30px auto 0;
+    margin:0px auto 0;
 }
 
 .projectDetail{
