@@ -133,7 +133,7 @@ hr{
   position:relative;
   top:18px;
   height:65px;
-  margin:10px;
+  margin:10px 15px 10px 15px;
 
 }
 
@@ -146,7 +146,7 @@ hr{
 
 @media only screen and (max-width:850px){
   #menuRight ul li{
-  margin:10px 6px 10px 6px;
+  margin:10px 10px 10px 10px;
 
 }
  #menuRight ul{
@@ -502,7 +502,7 @@ footer{
 
   width: 100%;
   background-color: black;
-  padding: 30px 15px 60px;
+  padding: 25px 15px 20px;
   color:white;
   font-family:roboto, arial, sans-serif;
 }

@@ -81,7 +81,7 @@ img.portfolioMargins {display: block; margin:25px auto 60px}
 
 .projectHead{
     width:100%;
-    padding:0px 20px;
+    padding:0px 40px 0px 0px;
     margin-bottom:75px;
     color:#444;
     text-align:center;
@@ -304,12 +304,12 @@ font-family: roboto, arial, sans-serif;
 
 .projectImage{
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .projectImage img{
   width:100%;
-  margin:20px 0;
+  margin:20px auto;
 }
 
 .projectImage.twoPer{

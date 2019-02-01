@@ -302,14 +302,14 @@ height:100%;
     width:100%;
     height:100%;
     float:left;
-    padding:20px 50px 20px 0px;
+    padding:0px 50px 20px 0px;
 
 }
 
-.bio p.intro{font-size:26px; line-height:1.65em;  font-weight:300; font-family:roboto slab, georgia, serif;}
+.bio p.intro{font-size:26px; line-height:1.65em;  font-weight:300; font-family:roboto slab, georgia, serif; margin-bottom: 50px;}
 .bio p{font-size:20px; line-height:1.65em; font-weight:300; font-family:roboto, arial, sans-serif;}
 
-p.emphasis{font-weight: 600; margin-top:50px; text-transform: uppercase;}
+a.emphasis{font-weight: 600; margin-top:50px; }
 
 .bio h3{font-size:24px; font-weight:600; font-family:roboto slab, georgia, serif; padding:0;}
 
@@ -569,18 +569,20 @@ i#viewWorkArrow.fas
   margin:0 auto;
   font-weight: 300;
   font-size: 16px;
+  text-align: left;
+
 }
 
 #ffHead{
   font-weight: bold;
-
+  text-align: left;
 }
 
 .ffInit{
   opacity:0;
   animation: ffFadeInInit 1s;
   animation-fill-mode: forwards;
-
+  text-align: left;
 }
 
 .randomFFin{
@@ -600,7 +602,7 @@ i#viewWorkArrow.fas
   padding:5px;
   border-radius: 7px;
   width:120px;
-  margin:20px auto 0;
+  margin:20px 0;
   cursor: pointer;
 }
 

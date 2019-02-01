@@ -19,13 +19,13 @@ var resetFFBut = document.getElementById("resetFF");
 
         "One of my all-time favorite songs is Weezer's \"Say It Ain\'t So.\"",
 
-        "One of my all-time favorite movies is the \"Back to the Future\" trilogy. I consider it one movie.",
-
         "In my opinion, the four food groups should be prime rib, beer, hummus, and chocolate chip pancakes.",
 
         "My sense of humor consists mostly of dry wit and sarcasm. My greatest weakness is not knowing when to put a lid on it. (Which is probably most of the time)",
 
         "The first concert I ever went to was for Weird Al Yankovic.",
+
+        "One of my all-time favorite movies is the \"Back to the Future\" trilogy. I consider it one movie.",
 
         "My first car was a 1989 Ford Probe, having it forced me to learn to drive stick.",
 
