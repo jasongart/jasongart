@@ -89,24 +89,12 @@ img.portfolioMargins {display: block; margin:25px auto 60px}
 }
 
 
-@media only screen and (max-width:330px)
-{
- .projectHead{
-  padding:30px 20px;
-
-
-}
+@media only screen and (max-width:330px){
+   .projectHead{
+    padding:30px 20px;
+  }
 }
 
-/* ****CANT REMEMBER THE POINT OF THIS MEDIA QUERY****
-@media only screen and (max-width:815px){
-.projectHead{
-margin-top:0px;
-
-}
-
-}
-*/
 
 .categories{
     font-size:25px;
