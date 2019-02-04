@@ -53,7 +53,7 @@ var resetFFBut = document.getElementById("resetFF");
 
         "I've never had a cavity, broken bone, or bee sting...but I do knock on wood a lot.",
 
-        "I love stand up comedy, one of my all-time favorite jokes (paraphrased) is: \"I believe in Karma. Sometimes I punch a random person in the face and say what did you do to deserve that?\"",
+        "I love stand up comedy, one of my all-time favorite jokes (paraphrased) is: \"I believe in Karma. Sometimes I punch a random person in the face and, 'say what did you do to deserve that?'\"",
 
         "I don't hate Jar Jar Binks. Sorry."
     ];
