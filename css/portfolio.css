@@ -81,7 +81,7 @@ img.portfolioMargins {display: block;margin: 20px auto 20px;}
 
 .projectHead{
     width:100%;
-    padding:0px 40px 0px 0px;
+    padding:0px 40px 0px 40px;
     margin-bottom:75px;
     color:#444;
     text-align:center;
@@ -221,6 +221,16 @@ processTabContain{
   color: #444;
 }
 
+@media only screen and (max-width:767px){
+.projectDescription{
+  width: 95%;
+  max-width: 1000px;
+  padding: 10px;
+  margin: 0px auto;
+  color: #444;
+}
+}
+
 .projectDescription p{
   font-family: roboto, arial, sans-serif;
   font-size: 20px;
@@ -249,16 +259,7 @@ processTabContain{
 }
 
 
-.projectDescription ul, .projectDescription ol{
-font-family: roboto, arial, sans-serif;
-  font-size: 20px;
-  line-height: 1.5em;
-  font-weight:200;
-  width:90%;
-  max-width:1200px;
-  margin:30px auto 10px;
-  text-align:left;
-}
+.projectDescription ul, .projectDescription ol{font-family: roboto, arial, sans-serif;font-size: 20px;line-height: 1.5em;font-weight:200;width:90%;max-width:1200px;margin:30px auto 10px;text-align:left;}
 
 .projectDescription ul li, .projectDescription ol li{
   font-family: roboto, arial, sans-serif;
@@ -427,7 +428,7 @@ a.backToTop:hover i.fas{
 img.dropShadow{
   margin:50px auto;
   display:block;
-  box-shadow:0px 0px 35px gray;
+  box-shadow:0px 0px 30px #bbb;
   /* border:1px solid black; */
 }
 
@@ -859,4 +860,64 @@ div.uxWireframesCont.right{
 
 }
 
+
+
+  small.tabImgDesCenter{
+    text-align: center;
+    display: block;
+    margin-bottom:30px;
   }
+
+  small.tabImgDesLeft{
+    text-align: left;
+    display: block;
+    margin-bottom:30px;
+  }
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+   outline:0px;
+   border:0px;
+   font-size:18px;
+
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+   outline:0px;
+   border:0px;
+   font-weight:bold;
+   color:#007bff;
+  }
+
+  .nav-tabs {
+    border-bottom:0px;
+  }
+
+  .lightboxThumb{
+    cursor:pointer;
+  }
+.featherlight .featherlight-close-icon:focus{
+  outline: 0px !important;
+  border:0px !important;
+  cursor: pointer;
+}
+
+
+
+.fa-search-plus{
+  display:block;
+  width:20%;
+  position:relative;
+  top:-60px;
+  background-color: rgba(0, 0, 0 , .6);
+  padding:10px;
+  margin:0 auto;
+  opacity:0;
+  transition:.3s;
+}
+
+
+.fa-search-plus:hover{
+  opacity:1;
+
+}

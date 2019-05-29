@@ -85,3 +85,22 @@ $(window).scroll(function(){
 
   }
 });
+
+
+var lbImg = document.querySelectorAll(".lightboxThumb");
+var searchBut = document.querySelectorAll(".fa-search-plus");
+
+$(lbImg).each(function(index){
+    var lbImgHov = lbImg[index];
+    var searchButRev = searchBut[index];
+
+    $(this).mouseenter(function(){
+        $(searchButRev).css("opacity", "1" );
+    // console.log("testing mag enter " + " " + index);
+    });
+
+    $(this).mouseleave(function(){
+        $(searchButRev).css("opacity", "0" );
+        // console.log("testing mag leave " + " " + index);
+    });
+});
