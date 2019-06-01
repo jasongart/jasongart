@@ -80,7 +80,7 @@ var resetFFBut = document.getElementById("resetFF");
         genRandNum();
       }
       else{
-        randomFFHead.innerHTML = "Random Fact: #" + (randomIndex + 1);
+        randomFFHead.innerHTML = "Random Fact About Me: #" + (randomIndex + 1);
         randomFunFact.innerHTML = funFacts[randomIndex];
         dupePrevent.push(randomIndex);
         console.log(dupePrevent);
