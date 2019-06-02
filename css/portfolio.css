@@ -921,3 +921,19 @@ div.uxWireframesCont.right{
   opacity:1;
 
 }
+
+.finSec{
+  width:100%;
+  font-size:18px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+.finSec a{
+  margin:0 0 -10px 0;
+
+}
+
+.gfdFin{
+  margin:0 !important;
+}
