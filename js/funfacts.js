@@ -39,7 +39,7 @@ var resetFFBut = document.getElementById("resetFF");
 
         "Because I have two small children and hard flooring the most indispensable item in my house is a broom.",
 
-        "I've always had an this thing about ants creeping me out that I never understood, then my mom told me that when I was a toddler I sat on an ant hill and got attacked. Mystery solved.",
+        "I've always had a thing about ants creeping me out that I never understood, then my mom told me that when I was a toddler I sat on an ant hill and got attacked. Mystery solved.",
 
         "If I had to pick a favorite color I would probably say blue, despite its minimal presence on this website.",
 
