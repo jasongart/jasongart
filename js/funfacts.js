@@ -15,7 +15,7 @@ var resetFFBut = document.getElementById("resetFF");
 
         "I have an excellent attention to detial, and an even greater sense of irony.",
 
-        "I'm the one on the right.",
+        "I'm the one in the center.",
 
         "One of my all-time favorite songs is Weezer's \"Say It Ain\'t So.\"",
 
